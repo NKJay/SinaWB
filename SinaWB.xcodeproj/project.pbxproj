@@ -7,13 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A0F37D4DC5E72C07264C0F84 /* Pods_SinaWB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D50ECFC72896DBC6B2D1E41 /* Pods_SinaWB.framework */; };
+		C02BBE6B1D450BCF00D2C6F0 /* MainVCSettings.json in Resources */ = {isa = PBXBuildFile; fileRef = C02BBE6A1D450BCF00D2C6F0 /* MainVCSettings.json */; };
+		C02BBE6D1D450FBD00D2C6F0 /* NullViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02BBE6C1D450FBD00D2C6F0 /* NullViewController.swift */; };
+		C04B464D1D48C2E600EBA41C /* PopoverViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C04B464C1D48C2E600EBA41C /* PopoverViewController.storyboard */; };
+		C04B464F1D48F9AB00EBA41C /* CustomUIPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04B464E1D48F9AB00EBA41C /* CustomUIPresentationController.swift */; };
+		C0623F801D49DAF9001579CD /* PopoverAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0623F7F1D49DAF9001579CD /* PopoverAnimation.swift */; };
+		C0623F831D4A0531001579CD /* QRCodeView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0623F821D4A0531001579CD /* QRCodeView.storyboard */; };
+		C0623F851D4A0586001579CD /* QRCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0623F841D4A0586001579CD /* QRCodeViewController.swift */; };
+		C0DFC9111D45A51300CC036B /* BaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0DFC9101D45A51300CC036B /* BaseTableViewController.swift */; };
+		C0DFC9131D45A5B500CC036B /* VisitorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0DFC9121D45A5B500CC036B /* VisitorView.swift */; };
+		C0EAC5E21D475B4F00099056 /* UIBarButtonItem-Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EAC5E11D475B4F00099056 /* UIBarButtonItem-Category.swift */; };
+		C0EAC5E41D4764DC00099056 /* TitleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EAC5E31D4764DC00099056 /* TitleButton.swift */; };
 		C0F828871D44C363001B2D12 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F828861D44C363001B2D12 /* AppDelegate.swift */; };
-		C0F828891D44C363001B2D12 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F828881D44C363001B2D12 /* ViewController.swift */; };
-		C0F8288C1D44C363001B2D12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0F8288A1D44C363001B2D12 /* Main.storyboard */; };
-		C0F8288E1D44C363001B2D12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0F8288D1D44C363001B2D12 /* Assets.xcassets */; };
-		C0F828911D44C363001B2D12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0F8288F1D44C363001B2D12 /* LaunchScreen.storyboard */; };
 		C0F8289C1D44C363001B2D12 /* SinaWBTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F8289B1D44C363001B2D12 /* SinaWBTests.swift */; };
 		C0F828A71D44C363001B2D12 /* SinaWBUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F828A61D44C363001B2D12 /* SinaWBUITests.swift */; };
+		C0F828C31D44C59E001B2D12 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F828C21D44C59E001B2D12 /* MainViewController.swift */; };
+		C0F828C51D44C5BF001B2D12 /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F828C41D44C5BF001B2D12 /* HomeTableViewController.swift */; };
+		C0F828C71D44C618001B2D12 /* DiscoverTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F828C61D44C618001B2D12 /* DiscoverTableViewController.swift */; };
+		C0F828CB1D44C647001B2D12 /* MessageTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F828CA1D44C647001B2D12 /* MessageTableViewController.swift */; };
+		C0F828CF1D44D1E1001B2D12 /* ProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F828CE1D44D1E1001B2D12 /* ProfileTableViewController.swift */; };
+		C0FBCEF61D62D09A00EE761C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0FBCEF51D62D09A00EE761C /* Images.xcassets */; };
+		C0FBCEF81D62D12900EE761C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0FBCEF71D62D12900EE761C /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,12 +49,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2D50ECFC72896DBC6B2D1E41 /* Pods_SinaWB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SinaWB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		996857F04D06484957E04B07 /* Pods-SinaWB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SinaWB.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SinaWB/Pods-SinaWB.debug.xcconfig"; sourceTree = "<group>"; };
+		C02BBE6A1D450BCF00D2C6F0 /* MainVCSettings.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MainVCSettings.json; sourceTree = "<group>"; };
+		C02BBE6C1D450FBD00D2C6F0 /* NullViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NullViewController.swift; sourceTree = "<group>"; };
+		C04B464C1D48C2E600EBA41C /* PopoverViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PopoverViewController.storyboard; sourceTree = "<group>"; };
+		C04B464E1D48F9AB00EBA41C /* CustomUIPresentationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomUIPresentationController.swift; sourceTree = "<group>"; };
+		C0623F7F1D49DAF9001579CD /* PopoverAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopoverAnimation.swift; sourceTree = "<group>"; };
+		C0623F821D4A0531001579CD /* QRCodeView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = QRCodeView.storyboard; sourceTree = "<group>"; };
+		C0623F841D4A0586001579CD /* QRCodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRCodeViewController.swift; sourceTree = "<group>"; };
+		C0DFC9101D45A51300CC036B /* BaseTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTableViewController.swift; sourceTree = "<group>"; };
+		C0DFC9121D45A5B500CC036B /* VisitorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisitorView.swift; sourceTree = "<group>"; };
+		C0EAC5E11D475B4F00099056 /* UIBarButtonItem-Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem-Category.swift"; sourceTree = "<group>"; };
+		C0EAC5E31D4764DC00099056 /* TitleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleButton.swift; sourceTree = "<group>"; };
 		C0F828831D44C363001B2D12 /* SinaWB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SinaWB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0F828861D44C363001B2D12 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C0F828881D44C363001B2D12 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C0F8288B1D44C363001B2D12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C0F8288D1D44C363001B2D12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C0F828901D44C363001B2D12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C0F828921D44C363001B2D12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C0F828971D44C363001B2D12 /* SinaWBTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SinaWBTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0F8289B1D44C363001B2D12 /* SinaWBTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SinaWBTests.swift; sourceTree = "<group>"; };
@@ -47,6 +71,14 @@
 		C0F828A21D44C363001B2D12 /* SinaWBUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SinaWBUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0F828A61D44C363001B2D12 /* SinaWBUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SinaWBUITests.swift; sourceTree = "<group>"; };
 		C0F828A81D44C363001B2D12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0F828C21D44C59E001B2D12 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		C0F828C41D44C5BF001B2D12 /* HomeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
+		C0F828C61D44C618001B2D12 /* DiscoverTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoverTableViewController.swift; sourceTree = "<group>"; };
+		C0F828CA1D44C647001B2D12 /* MessageTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageTableViewController.swift; sourceTree = "<group>"; };
+		C0F828CE1D44D1E1001B2D12 /* ProfileTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileTableViewController.swift; sourceTree = "<group>"; };
+		C0FBCEF51D62D09A00EE761C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C0FBCEF71D62D12900EE761C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = SinaWB/Assets.xcassets; sourceTree = "<group>"; };
+		D13176A31CAB98903BC0120B /* Pods-SinaWB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SinaWB.release.xcconfig"; path = "Pods/Target Support Files/Pods-SinaWB/Pods-SinaWB.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0F37D4DC5E72C07264C0F84 /* Pods_SinaWB.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,13 +107,61 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		80A0CE2E3CC8282E63A455A4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				996857F04D06484957E04B07 /* Pods-SinaWB.debug.xcconfig */,
+				D13176A31CAB98903BC0120B /* Pods-SinaWB.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		93B7A220B129BAA1B539A9FE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D50ECFC72896DBC6B2D1E41 /* Pods_SinaWB.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C02BBE671D450B5A00D2C6F0 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				C02BBE6A1D450BCF00D2C6F0 /* MainVCSettings.json */,
+				C02BBE6C1D450FBD00D2C6F0 /* NullViewController.swift */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		C04B46491D48C13400EBA41C /* Popover */ = {
+			isa = PBXGroup;
+			children = (
+				C04B464C1D48C2E600EBA41C /* PopoverViewController.storyboard */,
+				C04B464E1D48F9AB00EBA41C /* CustomUIPresentationController.swift */,
+				C0623F7F1D49DAF9001579CD /* PopoverAnimation.swift */,
+			);
+			path = Popover;
+			sourceTree = "<group>";
+		};
+		C0623F811D4A0521001579CD /* QRCode */ = {
+			isa = PBXGroup;
+			children = (
+				C0623F821D4A0531001579CD /* QRCodeView.storyboard */,
+				C0623F841D4A0586001579CD /* QRCodeViewController.swift */,
+			);
+			path = QRCode;
+			sourceTree = "<group>";
+		};
 		C0F8287A1D44C363001B2D12 = {
 			isa = PBXGroup;
 			children = (
+				C0FBCEF71D62D12900EE761C /* Assets.xcassets */,
 				C0F828851D44C363001B2D12 /* SinaWB */,
 				C0F8289A1D44C363001B2D12 /* SinaWBTests */,
 				C0F828A51D44C363001B2D12 /* SinaWBUITests */,
 				C0F828841D44C363001B2D12 /* Products */,
+				80A0CE2E3CC8282E63A455A4 /* Pods */,
+				93B7A220B129BAA1B539A9FE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +178,10 @@
 		C0F828851D44C363001B2D12 /* SinaWB */ = {
 			isa = PBXGroup;
 			children = (
+				C0F828B61D44C4DC001B2D12 /* ViewController */,
 				C0F828861D44C363001B2D12 /* AppDelegate.swift */,
-				C0F828881D44C363001B2D12 /* ViewController.swift */,
-				C0F8288A1D44C363001B2D12 /* Main.storyboard */,
-				C0F8288D1D44C363001B2D12 /* Assets.xcassets */,
-				C0F8288F1D44C363001B2D12 /* LaunchScreen.storyboard */,
 				C0F828921D44C363001B2D12 /* Info.plist */,
+				C0FBCEF51D62D09A00EE761C /* Images.xcassets */,
 			);
 			path = SinaWB;
 			sourceTree = "<group>";
@@ -125,6 +204,81 @@
 			path = SinaWBUITests;
 			sourceTree = "<group>";
 		};
+		C0F828B61D44C4DC001B2D12 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C0F828B71D44C4DC001B2D12 /* Common */,
+				C0F828B81D44C4DC001B2D12 /* Discover */,
+				C0F828B91D44C4DC001B2D12 /* Home */,
+				C0F828BA1D44C4DC001B2D12 /* Main */,
+				C0F828BB1D44C4DC001B2D12 /* Message */,
+				C0F828BC1D44C4DC001B2D12 /* Profile */,
+				C0F828BD1D44C4DC001B2D12 /* Tools */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		C0F828B71D44C4DC001B2D12 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				C0EAC5E11D475B4F00099056 /* UIBarButtonItem-Category.swift */,
+				C0EAC5E31D4764DC00099056 /* TitleButton.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		C0F828B81D44C4DC001B2D12 /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				C0F828C61D44C618001B2D12 /* DiscoverTableViewController.swift */,
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		C0F828B91D44C4DC001B2D12 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				C0623F811D4A0521001579CD /* QRCode */,
+				C04B46491D48C13400EBA41C /* Popover */,
+				C0F828C41D44C5BF001B2D12 /* HomeTableViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		C0F828BA1D44C4DC001B2D12 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				C02BBE671D450B5A00D2C6F0 /* Resource */,
+				C0F828C21D44C59E001B2D12 /* MainViewController.swift */,
+				C0DFC9101D45A51300CC036B /* BaseTableViewController.swift */,
+				C0DFC9121D45A5B500CC036B /* VisitorView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		C0F828BB1D44C4DC001B2D12 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				C0F828CA1D44C647001B2D12 /* MessageTableViewController.swift */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		C0F828BC1D44C4DC001B2D12 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				C0F828CE1D44D1E1001B2D12 /* ProfileTableViewController.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		C0F828BD1D44C4DC001B2D12 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +286,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C0F828AB1D44C363001B2D12 /* Build configuration list for PBXNativeTarget "SinaWB" */;
 			buildPhases = (
+				CC4D53EC85E872417F68EB33 /* [CP] Check Pods Manifest.lock */,
 				C0F8287F1D44C363001B2D12 /* Sources */,
 				C0F828801D44C363001B2D12 /* Frameworks */,
 				C0F828811D44C363001B2D12 /* Resources */,
+				A45DBE27079CEC2F3A3421CB /* [CP] Embed Pods Frameworks */,
+				DA0ADD80DC919B5ACB71E285 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +350,7 @@
 				TargetAttributes = {
 					C0F828821D44C363001B2D12 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = K7PR95WTDD;
 					};
 					C0F828961D44C363001B2D12 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -229,9 +387,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C0F828911D44C363001B2D12 /* LaunchScreen.storyboard in Resources */,
-				C0F8288E1D44C363001B2D12 /* Assets.xcassets in Resources */,
-				C0F8288C1D44C363001B2D12 /* Main.storyboard in Resources */,
+				C04B464D1D48C2E600EBA41C /* PopoverViewController.storyboard in Resources */,
+				C0FBCEF61D62D09A00EE761C /* Images.xcassets in Resources */,
+				C0623F831D4A0531001579CD /* QRCodeView.storyboard in Resources */,
+				C02BBE6B1D450BCF00D2C6F0 /* MainVCSettings.json in Resources */,
+				C0FBCEF81D62D12900EE761C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,13 +411,73 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A45DBE27079CEC2F3A3421CB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SinaWB/Pods-SinaWB-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC4D53EC85E872417F68EB33 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DA0ADD80DC919B5ACB71E285 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SinaWB/Pods-SinaWB-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C0F8287F1D44C363001B2D12 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C0F828891D44C363001B2D12 /* ViewController.swift in Sources */,
+				C04B464F1D48F9AB00EBA41C /* CustomUIPresentationController.swift in Sources */,
+				C0F828CF1D44D1E1001B2D12 /* ProfileTableViewController.swift in Sources */,
+				C0F828C51D44C5BF001B2D12 /* HomeTableViewController.swift in Sources */,
+				C0DFC9111D45A51300CC036B /* BaseTableViewController.swift in Sources */,
 				C0F828871D44C363001B2D12 /* AppDelegate.swift in Sources */,
+				C0EAC5E41D4764DC00099056 /* TitleButton.swift in Sources */,
+				C0F828C71D44C618001B2D12 /* DiscoverTableViewController.swift in Sources */,
+				C0F828C31D44C59E001B2D12 /* MainViewController.swift in Sources */,
+				C0DFC9131D45A5B500CC036B /* VisitorView.swift in Sources */,
+				C0F828CB1D44C647001B2D12 /* MessageTableViewController.swift in Sources */,
+				C0EAC5E21D475B4F00099056 /* UIBarButtonItem-Category.swift in Sources */,
+				C0623F801D49DAF9001579CD /* PopoverAnimation.swift in Sources */,
+				C0623F851D4A0586001579CD /* QRCodeViewController.swift in Sources */,
+				C02BBE6D1D450FBD00D2C6F0 /* NullViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,25 +511,6 @@
 			targetProxy = C0F828A31D44C363001B2D12 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		C0F8288A1D44C363001B2D12 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C0F8288B1D44C363001B2D12 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		C0F8288F1D44C363001B2D12 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C0F828901D44C363001B2D12 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		C0F828A91D44C363001B2D12 /* Debug */ = {
@@ -399,23 +600,35 @@
 		};
 		C0F828AC1D44C363001B2D12 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 996857F04D06484957E04B07 /* Pods-SinaWB.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = SinaWB/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = geetion.SinaWB;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		C0F828AD1D44C363001B2D12 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D13176A31CAB98903BC0120B /* Pods-SinaWB.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = SinaWB/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = geetion.SinaWB;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -484,6 +697,7 @@
 				C0F828AD1D44C363001B2D12 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C0F828AE1D44C363001B2D12 /* Build configuration list for PBXNativeTarget "SinaWBTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +706,7 @@
 				C0F828B01D44C363001B2D12 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C0F828B11D44C363001B2D12 /* Build configuration list for PBXNativeTarget "SinaWBUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +715,7 @@
 				C0F828B31D44C363001B2D12 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

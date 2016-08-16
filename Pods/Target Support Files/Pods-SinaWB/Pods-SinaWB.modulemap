@@ -1,0 +1,6 @@
+framework module Pods_SinaWB {
+  umbrella header "Pods-SinaWB-umbrella.h"
+
+  export *
+  module * { export * }
+}
