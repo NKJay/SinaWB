@@ -35,17 +35,17 @@
                                         <rect key="frame" x="0.0" y="0.0" width="250" height="250"/>
                                     </imageView>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="qrcode_scanline_qrcode" translatesAutoresizingMaskIntoConstraints="NO" id="JXx-yF-QdA">
-                                        <rect key="frame" x="0.0" y="0.0" width="250" height="250"/>
+                                        <rect key="frame" x="0.0" y="-250" width="250" height="250"/>
                                     </imageView>
                                 </subviews>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstItem="JXx-yF-QdA" firstAttribute="width" secondItem="047-4Q-CY7" secondAttribute="width" id="0v3-Hx-FZL"/>
                                     <constraint firstItem="JXx-yF-QdA" firstAttribute="centerX" secondItem="047-4Q-CY7" secondAttribute="centerX" id="Ana-CH-RS5"/>
                                     <constraint firstAttribute="height" constant="250" id="Apx-ht-ilQ"/>
                                     <constraint firstItem="JXx-yF-QdA" firstAttribute="width" secondItem="047-4Q-CY7" secondAttribute="width" id="HbB-7C-88y"/>
                                     <constraint firstAttribute="width" constant="250" id="V8B-WV-QW8"/>
-                                    <constraint firstItem="JXx-yF-QdA" firstAttribute="top" secondItem="047-4Q-CY7" secondAttribute="top" id="c3a-ah-khs"/>
+                                    <constraint firstItem="JXx-yF-QdA" firstAttribute="top" secondItem="047-4Q-CY7" secondAttribute="top" constant="-250" id="c3a-ah-khs"/>
                                     <constraint firstItem="JXx-yF-QdA" firstAttribute="height" secondItem="047-4Q-CY7" secondAttribute="height" id="zZf-Vs-BHl"/>
                                 </constraints>
                             </view>
@@ -93,7 +93,7 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="wfs-j9-3Ua">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="barTintColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <color key="barTintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
